@@ -1,0 +1,667 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="style/css.css" rel="stylesheet">
+<link href="style/public.css" rel="stylesheet">
+<script src="js/weifeng.js"></script>
+<script src="js/jquery.min.js"></script>
+
+</head>
+
+<body>
+ <div class="public">
+     <div class="auto top">
+          <div class="top-left">
+               <dd onMouseOver="box()" onMouseOut="demo()">广东▼
+                  <div id="pro">
+                      <li> <a href="#">北京</a></li> <li> <a href="#">北京</a></li> <li> <a href="#">北京</a></li> <li> <a href="#">北京</a></li> <li> <a href="#">北京</a></li> <li> <a href="#">北京</a></li> <li> <a href="#">北京</a></li> <li> <a href="#">北京</a></li> <li> <a href="#">北京</a></li>
+                  </div>
+               </dd>  
+          </div>
+          <div class="top-right">
+               <ul>
+                 <li><a href="#">你好登录</a></li>
+                 <li id="li"></li>
+                 <li><a href="#">注册</a></li>
+                 <li id="li"></li>
+                 <li><a href="#">帮助中心</a></li>
+                 <li id="li"></li>
+                 <li><span style="color:red;">☆<span><a href="#">收藏我们</a></li>
+             </ul>
+ 
+          </div>
+     </div>
+ </div>           
+   <!-- 以上是顶部 -->
+ 
+ 
+ 
+ 
+ <div class="public">
+ 
+    <div class="auto head">
+        <div class="head-left">
+             <div class="logo">
+                 <dd></dd>
+             </div>
+             
+             <div class="name">
+                  <dd>微风心里</dd>
+                  
+                  <dt>weixin.com</dt>
+             </div>
+        </div>
+        <div class="head-right">
+             <form>
+                 <input type="search" class="search">
+                 <input type="submit"  class="btn">
+             </form>
+        </div>
+    </div>
+ </div>
+ 
+ <!-- 以上是头部 -->
+ <div class="public back">
+ <div class="auto nav">
+         <ul>
+              <li><a href="#">首页</a></li>
+              <li><a href="#">心理保健</a></li>
+              <li><a href="#">心里情感</a></li>
+              <li><a href="#">心里百科</a></li>
+              <li><a href="#">心里咨询</a></li>
+              <li><a href="#">心里测试</a></li>
+         </ul>
+       
+       </div>
+ </div>
+ <!-- 以上是导航 -->
+ <div class="public">
+     <div class="auto">
+      <div id="playBox">
+        <div class="pre"></div>
+        <div class="next"></div>
+           <div class="smalltitle">
+         <ul>
+            <li class="thistitle"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+       </ul>
+        </div>
+        <ul class="oUlplay">
+        <li><a href="#" target="_blank"><img src="image/1.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="image/2.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="image/3.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="image/4.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="image/5.jpg" /></a></li>
+        <li><a href="#" target="_blank"><img src="image/6.jpg" /></a></li>
+       </ul>
+     </div>
+     </div>
+ </div>
+ 
+ 
+ 
+ <div class="public">
+    <div class="auto">
+        <div class="title"><img src="image/1-1.png" class="bbb">心里专家推荐</div>
+         
+        <div class="list">
+            <div class="lister one" id="list-up1" onMouseOut="hidedoctor(1)">
+                <dt>
+                  <div class="hr">
+                    <hr style="margin-top:10px;">
+                  </div>
+                  <div class="hr">医生信息</div>
+                  <div class="hr">
+                   <hr style="margin-top:10px;">
+                  </div>
+                </dt>
+                <dd>姓名：张医生</dd>
+                <dd>专业资历:国家级心理咨询师</dd>
+                <dd>资质证号:12345678</dd>
+                <dd>满意度:<span>★</span></dd>
+                <dd>回复速度:<span>★</span></dd>
+                <dd>在线时间:<span>★</span></dd>
+                <dd>服务时间：9：00-12:00</dd>
+            </div>
+              
+           <div class="lister" >
+                 <div class="up" onMouseOver="showdoctor(1)" >
+                    <dt>
+                       <img src="image/20-1.jpg" class="bor">
+                    </dt>
+                    <dd>张医生</dd>
+                    <dd id="pic1" style="color:#FC0;">★</dd>
+                    <dd>3.00分</dd>
+                    <dd>上海人民医院</dd>
+                    <dd>已有<span id="num1" style="color:red;">1000</span>人咨询</dd>
+                 </div>
+                 <div class="down">
+                    <dd  class="dd-btn">在线咨询</dd>
+                    <dd  class="dd-btn dd-left" >私信</dd>
+                 </div>
+            </div>
+        
+             <div class="lister one" id="list-up2" onMouseOut="hidedoctor(2)">
+                <dt>
+                  <div class="hr">
+                    <hr style="margin-top:10px;">
+                  </div>
+                  <div class="hr">医生信息</div>
+                  <div class="hr">
+                   <hr style="margin-top:10px;">
+                  </div>
+                </dt>
+                <dd>姓名：张医生</dd>
+                <dd>专业资历:国家级心理咨询师</dd>
+                <dd>资质证号:12345678</dd>
+                <dd>满意度:<span>★</span></dd>
+                <dd>回复速度:<span>★</span></dd>
+                <dd>在线时间:<span>★</span></dd>
+                <dd>服务时间：9：00-12:00</dd>
+            </div>
+           <div class="lister one">
+                 <div class="up" onMouseOver="showdoctor(2)">
+                    <dt>
+                       <img src="image/20-1.jpg" class="bor">
+                    </dt>
+                    <dd>张医生</dd>
+                    <dd id="pic2" style="color:#FC0;">★</dd>
+                    <dd>3.00分</dd>
+                    <dd>上海人民医院</dd>
+                    <dd>已有<span id="num2" style="color:red;">1000</span>人咨询</dd>
+                 </div>
+                 <div class="down">
+                    <dd  class="dd-btn" onClick="add(2)">在线咨询</dd>
+                    <dd  class="dd-btn dd-left" >私信</dd>
+                 </div>
+            </div>
+            <div class="lister one" id="list-up3"  onMouseOut="hidedoctor(3)">
+                <dt>
+                  <div class="hr">
+                    <hr style="margin-top:10px;">
+                  </div>
+                  <div class="hr">医生信息</div>
+                  <div class="hr">
+                   <hr style="margin-top:10px;">
+                  </div>
+                </dt>
+                <dd>姓名：张医生</dd>
+                <dd>专业资历:国家级心理咨询师</dd>
+                <dd>资质证号:12345678</dd>
+                <dd>满意度:<span>★</span></dd>
+                <dd>回复速度:<span>★</span></dd>
+                <dd>在线时间:<span>★</span></dd>
+                <dd>服务时间：9：00-12:00</dd>
+           </div>
+           <div class="lister one">
+                 <div class="up" onMouseOver="showdoctor(3)">
+                    <dt>
+                       <img src="image/20-1.jpg" class="bor">
+                    </dt>
+                    <dd>张医生</dd>
+                    <dd id="pic3" style="color:#FC0;">★</dd>
+                    <dd>3.00分</dd>
+                    <dd>上海人民医院</dd>
+                    <dd>已有<span id="num3" style="color:red;">1000</span>人咨询</dd>
+                 </div>
+                  <div class="down">
+                    <dd class="dd-btn" onClick="add(3)">在线咨询</dd>
+                    <dd class="dd-btn dd-left" >私信</dd>
+                 </div>
+            </div>
+             <div class="lister one" id="list-up4"  onMouseOut="hidedoctor(4)">
+                <dt>
+                  <div class="hr">
+                    <hr style="margin-top:10px;">
+                  </div>
+                  <div class="hr">医生信息</div>
+                  <div class="hr">
+                   <hr style="margin-top:10px;">
+                  </div>
+                </dt>
+                <dd>姓名：张医生</dd>
+                <dd>专业资历:国家级心理咨询师</dd>
+                <dd>资质证号:12345678</dd>
+                <dd>满意度:<span>★</span></dd>
+                <dd>回复速度:<span>★</span></dd>
+                <dd>在线时间:<span>★</span></dd>
+                <dd>服务时间：9：00-12:00</dd>
+            </div>
+            <div class="lister one">
+                 <div class="up" onMouseOver="showdoctor(4)">
+                    <dt>
+                       <img src="image/20-1.jpg" class="bor">
+                    </dt>
+                    <dd>张医生</dd>
+                    <dd style="color:#FC0;" id="pic4">★</dd>
+                    <dd>3.00分</dd>
+                    <dd>上海人民医院</dd>
+                    <dd>已有<span id="num4" style="color:red;">1000</span>人咨询</dd>
+                 </div>
+                  <div class="down">
+                    <dd class="dd-btn"  onClick="add(4)">在线咨询</dd>
+                    <dd class="dd-btn dd-left" >私信</dd>
+                 </div>
+            </div>
+             <div class="lister one" id="list-up5"  onMouseOut="hidedoctor(5)">
+                <dt>
+                  <div class="hr">
+                    <hr style="margin-top:10px;">
+                  </div>
+                  <div class="hr">医生信息</div>
+                  <div class="hr">
+                   <hr style="margin-top:10px;">
+                  </div>
+                </dt>
+                <dd>姓名：张医生</dd>
+                <dd>专业资历:国家级心理咨询师</dd>
+                <dd>资质证号:12345678</dd>
+                <dd>满意度:<span>★</span></dd>
+                <dd>回复速度:<span>★</span></dd>
+                <dd>在线时间:<span>★</span></dd>
+                <dd>服务时间：9：00-12:00</dd>
+            </div>
+            <div class="lister one">
+                 <div class="up" onMouseOver="showdoctor(5)">
+                    <dt>
+                       <img src="image/20-1.jpg" class="bor">
+                    </dt>
+                    <dd>张医生</dd>
+                    <dd style="color:#FC0;" id="pic5">★</dd>
+                    <dd>3.00分</dd>
+                    <dd>上海人民医院</dd>
+                    <dd>已有<span id="num5" style="color:red;">1000</span>人咨询</dd>
+                 </div>
+                  <div class="down">
+                    <dd class="dd-btn" onClick="add(5)">在线咨询</dd>
+                    <dd class="dd-btn dd-left" >私信</dd>
+                 </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ 
+  <!-- 医生列表信息 -->
+ 
+ 
+ 
+ <div class="public">
+    <div class="auto">
+        <img src="image/adv.jpg" class="bann">
+    </div>
+ </div>
+ 
+  <!-- 以上广告-->
+ <div class="public">
+     <div class="auto">
+         <div class="title two">
+         <div class="tab1">
+           <img src="image/1-2.png" class="aaa">心里保健
+         </div>
+          <div class="tab2">
+              <ul>
+                 <li onMouseOver="showtab(1)">热门</li>
+                 <li id="li"></li>
+                 <li onMouseOver="showtab(2)">心里常识</li>
+                 <li id="li"></li>
+                 <li onMouseOver="showtab(3)">健康减压</li>
+                 <li id="li"></li>
+                 <li onMouseOver="showtab(4)">生理健康</li>
+              </ul>
+          </div>
+         </div>
+         
+         <div class="pyh">
+             <div class="pyh-left">
+                  <dd onMouseOver="showfont(1)" onMouseOut="hidefont(1)"><img src="image/10-1.jpg" class="demo"></dd>
+                  <dt id="fontshow1" >压力来临的六大先兆 你的压力大吗</dt>
+             </div>
+             <div class="pyh-midd">
+                 <div class="pyh-midd-up">
+                    <dd><img src="image/10-2.jpg" class="demo"></dd>
+                    <dt><img src="image/10-3.jpg" class="demo"></dt>
+                 </div>
+                <div class="pyh-midd-down">
+                     <div id="result" >
+                       <ul></ul>
+                     </div>               
+                 </div>
+             </div>
+             <div id="pyh-right">
+                <div id="tabshow1">
+                  <div class="utitle">
+                       宣泄室
+                  </div>
+                 <div class="dd">
+                     <span style="color:#F90">▶</span> <dd>[工作]离婚的十字路口，一个快30一无所有</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。工作不稳定，婚宴不成功，没有孩子，还有什么惩罚······</dt>
+                     <br>
+                     <span style="color:#F90">▶</span> <dd>[工作]TMD太不公平了</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。工作不稳定，婚宴不成功</dt>
+                      <br>
+                     <span style="color:#F90">▶</span> <dd>[工作]TMD太不公平了</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。</dt>
+                 </div> 
+               </div>
+               <div id="tabshow2">
+                    <div class="utitle">
+                      心理常识
+                    </div>
+               </div>
+               <div id="tabshow3">
+                    <div class="utitle">
+                      健康减压
+                    </div>
+               </div>
+                <div id="tabshow4">
+                    <div class="utitle">
+                      生理健康
+                    </div>    
+               </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="public">
+     <div class="auto">
+         <div class="title two">
+         <div class="tab1">
+           <img src="image/1-3.png" class="aaa">心理情感
+         </div>
+          <div class="tab2">
+              <ul>
+                 <li onMouseOver="showtab(11)">热门</li>
+                 <li id="li"></li>
+                 <li onMouseOver="showtab(12)">婚恋心理</li>
+                  <li id="li"></li>
+                 <li onMouseOver="showtab(13)">成长心理</li>
+                  <li id="li"></li>
+                 <li onMouseOver="showtab(14)">职场心理</li>
+                  <li id="li"></li>
+                 <li onMouseOver="showtab(15)">人际交往</li>
+              </ul>
+          </div>
+         </div>  
+         <div class="pyh">
+             <div class="pyh-left">
+                  <dd onMouseOver="showfont(2)" onMouseOut="hidefont(2)"><img src="image/20-1.jpg" class="demo"></dd>
+                  <dt id="fontshow2" >害羞的女孩更忠诚</dt>
+             </div>
+             <div class="pyh-midd">
+                 <div class="pyh-midd-up">
+                    <dd><img src="image/20-2.jpg" class="demo"></dd>
+                    <dt><img src="image/20-3.jpg" class="demo"></dt>
+                 </div>
+                <div class="pyh-midd-down">
+                   <dd><span style="color:yellow">●</span><a href="#">心理常识<span>|</span>研究称男性友谊可缓解压力</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">心理常识<span>|</span>超级识谎术：抓住别人撒谎的七大迹象</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">心理常识<span>|</span>记性不好？改善可试试这6招</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">生理心理<span>|</span>没有忠诚 能力无足轻重</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">生理心理<span>|</span>早起的人更幸福 早起的好处</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">心理常识<span>|</span>这3句话你考虑越多 越拖后腿</a></dd>
+                    
+                 </div>
+             </div>
+             <div id="pyh-right">
+                 <div id="tabshow11">
+                  <div class="utitle">
+                       热门
+                  </div>
+                 <div class="dd">
+                     <span style="color:#F90">▶</span> <dd>[工作]离婚的十字路口，一个快30一无所有</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。工作不稳定，婚宴不成功，没有孩子，还有什么惩罚······</dt>
+                     <br>
+                     <span style="color:#F90">▶</span> <dd>[工作]TMD太不公平了</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。工作不稳定，婚宴不成功</dt>
+                      <br>
+                     <span style="color:#F90">▶</span> <dd>[工作]TMD太不公平了</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。</dt>
+                 </div> 
+               </div>
+               <div id="tabshow12">
+                    <div class="utitle">
+                    婚恋心理
+                    </div>
+               </div>
+               <div id="tabshow13">
+                    <div class="utitle">
+                      成长心理
+                    </div>
+               </div>
+                <div id="tabshow14">
+                    <div class="utitle">
+                      职场心理
+                    </div>    
+               </div>
+               <div id="tabshow15">
+                    <div class="utitle">
+                      人际交往
+                    </div>    
+               </div>
+             </div>
+         </div>
+     </div>
+ </div>
+<div class="public">
+     <div class="auto">
+         <div class="title two">
+         <div class="tab1">
+           <img src="image/1-4.png" class="aaa">心理情感
+         </div>
+          <div class="tab2">
+              <ul>
+                 <li>热门</li>
+                 <li id="li"></li>
+                 <li>婚恋心理</li>
+                  <li id="li"></li>
+                 <li>成长心理</li>
+                  <li id="li"></li>
+                 <li>职场心理</li>
+                 <li id="li"></li>
+                 <li>人际交往</li>
+              </ul>
+          </div>
+         </div>
+         
+         
+         <div class="pyh">
+             <div class="pyh-left">
+                  <dd onMouseOver="showfont(3)" onMouseOut="hidefont(3)")"><img src="image/20-1.jpg" class="demo"></dd>
+                  <dt id="fontshow3">害羞的女孩更忠诚</dt>
+             </div>
+             <div class="pyh-midd">
+                 <div class="pyh-midd-up">
+                    <dd><img src="image/20-2.jpg" class="demo"></dd>
+                    <dt><img src="image/20-3.jpg" class="demo"></dt>
+                 </div>
+                <div class="pyh-midd-down">
+                   <dd><span style="color:yellow">●</span><a href="#">心理常识<span>|</span>研究称男性友谊可缓解压力</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">心理常识<span>|</span>超级识谎术：抓住别人撒谎的七大迹象</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">心理常识<span>|</span>记性不好？改善可试试这6招</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">生理心理<span>|</span>没有忠诚 能力无足轻重</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">生理心理<span>|</span>早起的人更幸福 早起的好处</a></dd>
+                   <dd><span style="color:yellow">●</span><a href="#">心理常识<span>|</span>这3句话你考虑越多 越拖后腿</a></dd>
+                    
+                 </div>
+             </div>
+             <div id="pyh-right">
+                  <div class="utitle">
+                       宣泄室
+                  </div>
+                  <div class="dd">
+                     <span style="color:#F90">▶</span> <dd>[工作]离婚的十字路口，一个快30一无所有</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。工作不稳定，婚宴不成功，没有孩子，还有什么惩罚······</dt>
+                     <br>
+                     <span style="color:#F90">▶</span> <dd>[工作]TMD太不公平了</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。工作不稳定，婚宴不成功</dt>
+                      <br>
+                     <span style="color:#F90">▶</span> <dd>[工作]TMD太不公平了</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。</dt>
+                 </div> 
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="public">
+     <div class="auto">
+         <div class="title two">
+         <div class="tab1">
+           <img src="image/1-5.png" class="aaa">心里保健
+         </div>
+          <div class="tab2">
+               <ul>
+                <li >热门</li>
+                <li id="li"> </li>
+                <li >专家在线</li>
+                <li id="li"> </li>
+                <li >心理治疗</li>
+                <li id="li"> </li>
+                <li >心理互助</li>
+                <li id="li"> </li>
+                <li >心理测试</li>
+                <li id="li"> </li>
+              </ul>
+          </div>
+         </div>
+         
+         
+         <div class="pyh">
+             <div class="pyh-left">
+                  <dd onMouseOver="showfont(4)" onMouseOut="hidefont(4)"><img src="image/10-1.jpg" class="demo"></dd>
+                  <dt id="fontshow4">压力来临的六大先兆 你的压力大吗</dt>
+             </div>
+             <div class="pyh-midd">
+                 <div class="pyh-midd-up" style="margin-top:10px;">
+                    <dd><img src="image/10-2.jpg" class="demo"></dd>
+                    <dt><img src="image/10-3.jpg" class="demo"></dt>
+                 </div>
+                <div class="pyh-midd-up" style="margin-top:30px;">
+                    <dd><img src="image/10-2.jpg" class="demo"></dd>
+                    <dt><img src="image/10-3.jpg" class="demo"></dt>
+                 </div>
+             </div>
+             <div id="pyh-right">
+                  <div id="tabshow11">
+                  <div class="utitle">
+                       热门
+                  </div>
+                 <div class="dd">
+                     <span style="color:#F90">▶</span> <dd>[工作]离婚的十字路口，一个快30一无所有</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。工作不稳定，婚宴不成功，没有孩子，还有什么惩罚······</dt>
+                     <br>
+                     <span style="color:#F90">▶</span> <dd>[工作]TMD太不公平了</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。工作不稳定，婚宴不成功</dt>
+                      <br>
+                     <span style="color:#F90">▶</span> <dd>[工作]TMD太不公平了</dd>
+                     <dt>厌烦，相互不理解走到了今天。不知道还能坚持多久。</dt>
+                 </div> 
+               </div>
+               <div id="tabshow12">
+                    <div class="utitle">
+                    婚恋心理
+                    </div>
+               </div>
+               <div id="tabshow13">
+                    <div class="utitle">
+                      成长心理
+                    </div>
+               </div>
+                <div id="tabshow14">
+                    <div class="utitle">
+                      职场心理
+                    </div>    
+               </div>
+               <div id="tabshow15">
+                    <div class="utitle">
+                      人际交往
+                    </div>    
+               </div>
+             </div>
+             </div>
+         </div>
+     </div>
+ </div>
+  <div class="public">
+      <div class="back auto" style="margin-top:15px;">
+           <span id="foot-dd1" onMouseOver="showfoot()">友情链接</span>
+           <span id="foot-dd2" onMouseOver="showfoot1()">热门医院</span>
+      </div>
+ </div>
+ <div class="public">
+       <div class="auto footer">
+          <ul id="friend" >
+           <li><a href="#">健康网</a></li>
+           <li><a href="#">婚恋心理</a></li>
+           <li><a href="#">心理咨询</a></li>
+           <li><a href="#">精神障碍</a></li>
+           <li><a href="#">中国心理网</a></li>
+           <li><a href="#">职场心理网</a></li>
+           <li><a href="#">平安健康网</a></li>
+           <li><a href="#">健康网</a></li>
+          </ul>
+          <ul id="hosepity" style="display:none">
+           <li><a href="#">热门医院</a></li>
+           <li><a href="#">中山医院</a></li>
+           <li><a href="#">广西医院</a></li>
+           <li><a href="#">北京医院</a></li>
+           <li><a href="#">东方医院</a></li>
+           <li><a href="#">深圳医院</a></li>
+           <li><a href="#">平安健康网</a></li>
+           <li><a href="#">健康网</a></li>
+          </ul>
+      </div>
+ </div>
+ <div class="public back">
+     
+     <div class="auto end">
+        <ul>
+        <li><a href="#">公司简介</a></li>
+        <li id="li1"></li>
+        <li><a href="#">广告服务</a></li>
+        <li id="li1"></li>
+        <li><a href="#">健康信息增值服务</a></li>
+        <li id="li1"></li>
+        <li><a href="#">健康管理服务</a></li>
+        <li id="li1"></li>
+        <li><a href="#">业务合作</a></li>
+        <li id="li1"></li>
+        <li><a href="#">加入我们</a></li>
+       </ul>
+     </div>
+ </div>
+             
+</body>
+</html>
+<script type="text/javascript">
+var sty='style="color:yellow;"';
+var s='<span '+sty+'>●</span>';
+			$(document).ready(function(){
+				//页面自动加载的时候 显示数据
+                console.log(s);
+					$.ajax({
+						url:"json/json.json",
+						// URL 你的JSON的路径
+						type:"get",
+						 //你采用什么方法  //同步和异步方法 
+						datatype:"json",
+						//采用什么是数据类型
+						success:function(data){
+					    // 如果数据库及读取成功 则返回一下数据库
+						$.each(data, function(i,item) {
+						   // 遍历所有的数据集合
+						var content='<br>'+'<li>'+s+item.name+'|'+item.dec+'</li>';
+							//这个里面的标签只能作为字符串类型
+						$("#result").append(content);
+							//开始追加内容
+						});
+						}
+					});		
+			});
+</script>
+	

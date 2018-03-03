@@ -1,0 +1,60 @@
+html {
+	 overflow-y:scroll;
+	 background:#F6F6F6;
+	 font-family:Verdana, Geneva, sans-serif;
+	 }
+body {
+	margin:0; 
+	padding:0; 
+    font:12px/1.5 \5b8b\4f53,Arial,sans-serif;background:#F6F6F6; 
+	position:relative;
+	}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{
+	padding:0; margin:0;
+
+}
+
+table,td,tr,th{font-size:12px;}
+ol,ul {list-style:none;overflow: hidden;}
+dd,dt,div,dl,li,tt{
+	overflow:hidden;
+}
+li{list-style-type:none;}
+img{vertical-align:top;border:0;}
+h1,h2,h3,h4,h5,h6{
+	font-size:inherit;  /*继承*/
+	font-weight:normal;
+	}
+address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+a{color:#000; text-decoration:none;}
+a:visited {text-decoration:none; color:#000;}
+a:hover {color:#000;text-decoration:none;}
+a:active {color:#000;}
+*{margin: 0px; padding: 0px;}
+
+input,button,select,textarea{outline:none;}
+.auto{
+	width:1200px;
+	margin:0 auto;
+	height:auto;
+}
+.public{
+	width:100%;
+}
+.back{
+	background:#00a79d;
+}
+.title{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	font-family:"黑体";
+	font-size:18px;
+	margin-top:10px;
+}
+.one{
+	margin-left:10px;
+}
+.two{
+	border-bottom:2px solid #FC0;
+}
